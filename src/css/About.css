@@ -1,0 +1,16 @@
+
+
+@media (max-width: 767px) {
+    .col-lg-6 {
+      margin-bottom: 2rem;
+    }
+  
+    .img-fluid {
+      width: 100%; 
+    }
+  
+    .years {
+      margin-bottom: 1rem; 
+    }
+  }
+  
