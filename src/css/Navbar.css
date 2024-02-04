@@ -16,6 +16,7 @@
     .navbar .navbar-nav .nav-link  {
         padding: 10px 0;
     }
+    
 
     .navbar .navbar-toggler {
         margin-right: 0.5rem; 
@@ -53,7 +54,6 @@
     .navbar .navbar-brand.d-block.d-lg-none {
         display: none; 
     }
-
     .navbar .navbar-brand.bg-secondary {
         display: block; 
     }
@@ -70,3 +70,6 @@
     visibility: hidden;
     transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
+/* Navbar.css */
+
+/* ... (existing styles) */

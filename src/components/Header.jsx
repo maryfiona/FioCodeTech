@@ -1,13 +1,25 @@
 import React, { useEffect } from 'react';
 import Typed from 'typed.js';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import '../css/Header.css'
-import woman from '../assets/woman1.png'
+import woman from '../assets/woman.jpeg'
 
 const Header = () => {
+  const containerStyle = {
+    width: '200px', // Set your desired width
+    height: '200px', // Set your desired height
+    background: `url('your-image.jpg') center/cover no-repeat`,
+    borderRadius: '50%',
+    overflow: 'hidden',
+  };
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   
         useEffect(() => {
           const options = {
-            strings: [ "Front End Developer"],
+            strings: ["Front End Developer"],
             typeSpeed: 50,
             backSpeed: 30,
             loop: true,
@@ -23,7 +35,7 @@ const Header = () => {
   return (
     <div>
         
-        <div className="container-fluid  my-6 mt-0" id="home">
+        <div className="container-fluid my-6 mt-0" id="home">
             <div className="container">
                 <div className="row g-5 align-items-center">
                     <div className="col-lg-6 py-6 pb-0 pt-lg-0">
@@ -38,7 +50,7 @@ const Header = () => {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <img className="img-fluid"src={woman} alt="" />
+                        <img className="img-fluid"src={woman} alt="" style={{borderRadius:'60%' }} />
                     </div>
                 </div>
             </div>

@@ -1,13 +1,14 @@
 
 #home {
-    margin-bottom: 6rem;
-    background: url(../assets/bg-header.png) left top no-repeat;
-}
+   
+        margin-bottom: 6rem;
+        background: url('../assets/bg-header.png') left top no-repeat;
+        /* ... other styles */
+    }
+    
 
 .typed-cursor {
     font-size: 30px;
     color: var(--dark);
 }
 
-/* 
-background: url(../assets/splash1.jpg) left top no-repeat; */

@@ -1,6 +1,7 @@
     import React, { useState, useEffect } from 'react';
 import '../css/Navbar.css'
 import { Link } from 'react-router-dom';
+import img from '../assets/FioCodeTech.jpg'
 
 const Navbar = () => {
     const [isNavbarVisible, setNavbarVisible] = useState(true);
@@ -27,7 +28,7 @@ const Navbar = () => {
             data-wow-delay="0.1s"
         >
             <a href="index.html" className="navbar-brand d-block d-lg-none">
-                <h1 className="text-primary fw-bold m-0">ProMan</h1>
+            <img src={img} alt="" width={100} />
             </a>
             <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span className="navbar-toggler-icon"></span>
@@ -39,8 +40,8 @@ const Navbar = () => {
                     <Link to="/Skills" className="nav-item nav-link">Skills</Link>
                     
                 </div>
-                <a href="index.html" className="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
-                    <h1 className="text-primary fw-bold m-0">ProMan</h1>
+                <a href="/" className="navbar-brand bg-primary py-3 px-4 mx-3 d-none d-lg-block">
+                   <img src={img} alt="" width={100} />
                 </a>
                 <div className="navbar-nav me-auto py-0">
                
