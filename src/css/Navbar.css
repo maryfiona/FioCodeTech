@@ -11,7 +11,7 @@
     color: var(--primary);
 }
 
-/* Mobile View */
+
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
         padding: 10px 0;
@@ -34,7 +34,7 @@
     }
 }
 
-/* Desktop View */
+
 @media (min-width: 992px) {
     .navbar .navbar-nav .nav-link {
         padding: 20px 15px;
@@ -70,6 +70,4 @@
     visibility: hidden;
     transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
-/* Navbar.css */
 
-/* ... (existing styles) */
