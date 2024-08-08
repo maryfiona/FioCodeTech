@@ -96,27 +96,27 @@ const SkillsAndExperience = () => {
               <div id="tab-2" className="fade show p-0" data-aos="fade-right" >
                 <div className="row gy-5 gx-4">
                   <div className="col-sm-6">
-                    <h5>Primary</h5>
+                    <h5>Frontend development</h5>
                     <hr className="text-primary my-2"/>
-                    <p className="text-primary mb-1">2000 - 2045</p>
-                    <h6 className="mb-0">Most High School</h6>
+                    <p className="text-primary mb-1">2023 - present</p>
+                    <h6 className="mb-0">Great learning</h6>
                   </div>
                   <div className="col-sm-6">
-                    <h5>Junior Secondary</h5>
+                    <h5>React</h5>
                     <hr className="text-primary my-2"/>
-                    <p className="text-primary mb-1">2000 - 2045</p>
-                    <h6 className="mb-0">Most High College</h6>
+                    <p className="text-primary mb-1">2023 -present</p>
+                    <h6 className="mb-0">Udemy</h6>
                   </div>
                   <div className="col-sm-6">
-                    <h5>Senior secondary</h5>
+                    <h5>Frontend development</h5>
                     <hr className="text-primary my-2"/>
-                    <p className="text-primary mb-1">2000 - 2045</p>
-                    <h6 className="mb-0">Roseville College</h6>
+                    <p className="text-primary mb-1">2022 - 2023</p>
+                    <h6 className="mb-0">Side hustle intership</h6>
                   </div>
                   <div className="col-sm-6">
-                    <h5>Frontend Development</h5>
+                    <h5>Javascript and React</h5>
                     <hr className="text-primary my-2"/>
-                    <p className="text-primary mb-1">2000 - 2045</p>
+                    <p className="text-primary mb-1">2003 - 2024</p>
                     <h6 className="mb-0">New Horizons</h6>
                   </div>
                 </div>
