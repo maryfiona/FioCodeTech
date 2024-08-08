@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { BrowserRouter as  Router,Routes, Route } from 'react-router-dom';
 import Contact from '../components/Contact';
 import About from '../components/About';
@@ -8,6 +8,7 @@ import Home from '../pages/Home.jsx'
 import SkillsAndExperience from '../components/SkillsAndExperience.jsx';
 import Services from '../components/Services.jsx';
 import Projects from '../components/Projects.jsx'
+import Footer from '../components/Footer.jsx'
 
 const HomePage = () => {
   return (
@@ -22,11 +23,8 @@ const HomePage = () => {
                <Route path="/Services" element={<Services/>} />
                <Route path="/Projects" element={<Projects/>} />
               <Route path="/contact" element={<Contact />} />
-              
-
-
-    </Routes>
-    {/* <Footer/> */}
+               </Routes>
+    <Footer/>
     
     </div>
 

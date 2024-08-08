@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import CountUp from 'react-countup';
 import '../css/About.css';
 import AOS from 'aos';
@@ -35,7 +35,12 @@ const About = () => {
               <h3 className="lh-base mb-0 fs-5">of experience as a Frontend developer</h3>
             </div>
             <p className="mb-4 fs-5">
-              With a solid year of hands-on experience in Frontend Development, I've passionately contributed to the creation of visually stunning and highly functional web applications. Proficient in HTML, CSS, and JavaScript, I've embraced modern frameworks such as React.js, ensuring seamless and responsive user interfaces. Collaborating seamlessly with cross-functional teams, I've delivered solutions that not only meet but exceed client expectations. My commitment to continuous learning keeps me at the forefront of industry trends, and I look forward to leveraging my skills in future projects.
+              With a solid year of hands-on experience in Frontend Development, I have passionately contributed to
+               the creation of visually stunning and highly functional web applications.
+                Proficient in HTML, CSS, and JavaScript,
+                 I have embraced modern frameworks such as React.js
+                 , ensuring seamless and responsive user interfaces.
+                  Collaborating seamlessly with cross-functional teams, I have delivered solutions that not only meet but exceed client expectations. My commitment to continuous learning keeps me at the forefront of industry trends, and I look forward to leveraging my skills in future projects.
             </p>
 
             <a className="btn btn-primary py-3 px-5 mb-5" href="#read-more">

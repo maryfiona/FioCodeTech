@@ -1,4 +1,4 @@
-    import React, { useState, useEffect } from 'react';
+    import { useState, useEffect } from 'react';
 import '../css/Navbar.css'
 import { Link } from 'react-router-dom';
 import img from '../assets/FioCodeTech.jpg'
@@ -9,8 +9,7 @@ const Navbar = () => {
     useEffect(() => {
         const handleScroll = () => {
             const currentScrollPos = window.pageYOffset;
-            const isScrolledDown = currentScrollPos > 50; // You can adjust the threshold
-
+            const isScrolledDown = currentScrollPos > 50; 
             setNavbarVisible(isScrolledDown);
         };
 
