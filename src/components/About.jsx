@@ -29,7 +29,7 @@ const About = () => {
           <div className="col-lg-6" data-aos="fade-down">
             <div className="d-flex align-items-center mb-5">
               <div className="years flex-shrink-0 text-center me-4">
-                <h1 className="display-1 mb-0" >5</h1>
+                <h1 className="display-1 mb-0" >2</h1>
                 <h5 className="mb-0">Year</h5>
               </div>
               <h3 className="lh-base mb-0 fs-5">of experience as a Frontend developer</h3>
