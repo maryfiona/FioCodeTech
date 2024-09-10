@@ -37,7 +37,7 @@ const Header = () => {
                         <h2 className="typed-text-output d-inline"></h2>
                        
                         <div className="d-flex align-items-center pt-5">
-                        <a href="/fio-codetech cv.pdf" className="btn btn-primary py-3 px-4 me-5" download="AGU_CHIDIMMA_CV.pdf">Download CV</a>
+                        <a href="/public/FioCodeTech (2).pdf" className="btn btn-primary py-3 px-4 me-5" download="FioCodeTech.pdf">Download CV</a>
 
                             
                            
